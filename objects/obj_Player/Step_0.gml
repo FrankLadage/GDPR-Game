@@ -95,10 +95,11 @@ if (!place_meeting(x,y+1,obj_collision))
 if (hsp != 0) image_xscale = sign(hsp);
 
 
-if(keyboard_check(vk_control)) && (firingdelay == 0)
+if(keyboard_check(vk_control)) && (firingdelay == 0) && (global.ammo > 0)
 {
 	//rate of firel, higher number = lower fire speed
 	firingdelay = 45;
+	global.ammo--;
 	with (instance_create_layer(x,y,"Kunai",obj_Kunai))
 	{
 		if(other.image_xscale > 0)

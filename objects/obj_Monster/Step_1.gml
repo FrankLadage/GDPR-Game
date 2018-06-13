@@ -13,5 +13,5 @@ if (hp <= 0)
 		image_yscale = other.size;
 	}
 	instance_destroy();
-	obj_Player.playerscore = obj_Player.playerscore + 5;
+	global.playerscore = global.playerscore + 5;
 }

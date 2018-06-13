@@ -14,5 +14,12 @@ for (var i = 0; i< hp; i++) {
 scorestartx = 1000;
 scorestarty = 70;
 
-draw_text_transformed_colour(scorestartx, scorestarty, playerscore, 1.5, 1.5, 0, c_white, c_white, c_white, c_white, 1.0);
+draw_text_transformed_colour(scorestartx - 50, scorestarty, "Score: ", 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
+draw_text_transformed_colour(scorestartx, scorestarty, global.playerscore, 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
 
+// Ammo
+ammostartx = 1000;
+ammostarty = 120;
+
+draw_text_transformed_colour(ammostartx - 50, ammostarty, "Ammo: ", 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
+draw_text_transformed_colour(ammostartx, ammostarty, global.ammo, 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);

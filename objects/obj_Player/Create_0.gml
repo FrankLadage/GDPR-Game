@@ -11,4 +11,4 @@ isjumping = 1;
 hp = 3;
 hpcooldown = 0;
 canjump = 0;
-playerscore = 0;
+
