@@ -11,7 +11,8 @@ for (var i = 0; i< hp; i++) {
 }
 
 // Score
-scorestartx = 60;
-scorestarty = 100;
+scorestartx = 1000;
+scorestarty = 70;
 
-draw_text(scorestartx, scorestarty, playerscore);
+draw_text_transformed_colour(scorestartx, scorestarty, playerscore, 1.5, 1.5, 0, c_white, c_white, c_white, c_white, 1.0);
+
