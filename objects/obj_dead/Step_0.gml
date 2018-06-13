@@ -31,7 +31,7 @@ if(done == 0)
 	//Vertical Collision
 	if (place_meeting(x,y+vsp,obj_collision))
 	{
-		image_speed = 1;
+		image_speed = 0;
 	
 		if (vsp > 0) 
 		{

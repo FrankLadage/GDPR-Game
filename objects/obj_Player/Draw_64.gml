@@ -7,7 +7,7 @@ hpxoffset = 35;
 hpstarty = 25;
 
 for (var i = 0; i< hp; i++) {
-	draw_sprite(s_live, 0, hpstartx+(hpxoffset*i), hpstarty);
+	draw_sprite(s_ItemList, 3, hpstartx+(hpxoffset*i), hpstarty);
 }
 
 // Score
