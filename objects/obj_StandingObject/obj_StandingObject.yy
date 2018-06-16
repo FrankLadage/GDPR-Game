@@ -15,13 +15,13 @@
             "m_owner": "bf123043-2466-4c6e-bf55-a967a76edfad"
         },
         {
-            "id": "6e9e478f-f9be-44ee-9424-7ed39986afa7",
+            "id": "fbedc29f-e1ff-4e0c-9939-2b979676fdef",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 13,
-            "eventtype": 5,
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "bf123043-2466-4c6e-bf55-a967a76edfad"
         }
     ],
@@ -57,7 +57,7 @@
             "varType": 1
         },
         {
-            "id": "46735956-52e9-4957-a500-18c83323408c",
+            "id": "8e8a8ffe-c7e2-46fb-ba47-8cb2c6352480",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,9 +66,37 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "5",
             "varName": "price",
             "varType": 1
+        },
+        {
+            "id": "a883d10d-c4b3-4434-8226-8095800ddb95",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "purchase_delay",
+            "varType": 1
+        },
+        {
+            "id": "e5a2474c-a996-44b4-a567-b88deca109c9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "",
+            "varName": "shop_id",
+            "varType": 2
         }
     ],
     "solid": false,
