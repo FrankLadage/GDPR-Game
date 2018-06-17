@@ -1,0 +1,1 @@
+text = "Speed \n20 Points";

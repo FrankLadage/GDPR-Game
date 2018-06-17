@@ -1,0 +1,1 @@
+text = "Ammo \n5 Points";
