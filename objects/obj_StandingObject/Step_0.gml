@@ -26,6 +26,13 @@ if(keyboard_check(vk_enter)) {
 		obj_Player.walksp += 1;
 		global.playerscore -= nearest.price;
 	}
+	
+	// Jump
+	else if(global.playerscore >= nearest.price && nearest.shop_id == "jump" && nearest.purchase_delay == 0) {
+		nearest.purchase_delay = 50;
+		global.jumpeffect += 0.5;
+		global.playerscore -= nearest.price;
+	}
 }
 	
 if(nearest.purchase_delay > 0) nearest.purchase_delay--;

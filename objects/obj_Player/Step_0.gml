@@ -23,7 +23,7 @@ vsp = vsp + grv;
 canjump -= 1;
 if (canjump > 0) && (key_jump)
 {
-	vsp = -8;
+	vsp = -8 - global.jumpeffect;
 	canjump = 0;
 }
 

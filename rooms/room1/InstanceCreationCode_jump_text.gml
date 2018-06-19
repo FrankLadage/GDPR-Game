@@ -1,0 +1,1 @@
+text = "Higher Jump \n40 Points";
