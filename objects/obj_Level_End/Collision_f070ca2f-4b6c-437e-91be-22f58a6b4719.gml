@@ -10,3 +10,4 @@ with (obj_Player)
 		SlideTransition(TRANS_MODE.GOTO,other.target);
 	}
 }
+
