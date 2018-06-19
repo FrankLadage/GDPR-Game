@@ -23,7 +23,7 @@ if(keyboard_check(vk_enter)) {
 	// Speed
 	else if(global.playerscore >= nearest.price && nearest.shop_id == "speed" && nearest.purchase_delay == 0) {
 		nearest.purchase_delay = 50;
-		walksp += 1;
+		obj_Player.walksp += 1;
 		global.playerscore -= nearest.price;
 	}
 }
