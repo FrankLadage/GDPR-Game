@@ -97,6 +97,20 @@
             "value": "",
             "varName": "shop_id",
             "varType": 2
+        },
+        {
+            "id": "18298ff8-9864-432d-8fb7-379dae657b66",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "",
+            "varName": "shop_text",
+            "varType": 2
         }
     ],
     "solid": false,

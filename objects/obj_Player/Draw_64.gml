@@ -12,14 +12,14 @@ for (var i = 0; i< hp; i++) {
 
 // Score
 scorestartx = 1000;
-scorestarty = 70;
+scorestarty = 50;
 
-draw_text_transformed_colour(scorestartx - 70, scorestarty, "Score: ", 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
+draw_text_transformed_colour(scorestartx - 90, scorestarty, "Score: ", 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
 draw_text_transformed_colour(scorestartx, scorestarty, global.playerscore, 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
 
 // Ammo
 ammostartx = 1000;
-ammostarty = 120;
+ammostarty = 100;
 
-draw_text_transformed_colour(ammostartx - 70, ammostarty, "Ammo: ", 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
+draw_text_transformed_colour(ammostartx - 90, ammostarty, "Ammunitie: ", 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
 draw_text_transformed_colour(ammostartx, ammostarty, global.ammo, 1.1, 1.1, 0, c_white, c_white, c_white, c_white, 1.0);
