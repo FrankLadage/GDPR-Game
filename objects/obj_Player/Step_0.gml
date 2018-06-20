@@ -122,6 +122,7 @@ if(keyboard_check(vk_control)) && (firingdelay == 0) && (global.ammo > 0)
 if(place_meeting(x,y,obj_Monster)) && (hpcooldown == 0)
 {
 	hp--;
+	flash = 30;
 	hpcooldown = 90;
 	audio_play_sound(sn_Hit,10,false);
 }
