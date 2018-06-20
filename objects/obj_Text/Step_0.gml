@@ -7,6 +7,7 @@ draw_set_font(fMenu);
 if(h == 0) h = string_height(text);
 w = string_width(text_current);
 
+if(instance_exists(obj_Player)){
 //Destroy when done
 if (letters >= length) && ((keyboard_check_pressed(vk_f1)) or (keyboard_check_pressed(vk_f2))) && (room != shop1)
 {
@@ -20,7 +21,9 @@ if (letters >= length) && ((keyboard_check_pressed(vk_f1)) or (keyboard_check_pr
 		audio_play_sound(sn_Bad,10,false);
 	}
 	
+	
 	var nearestSignPost = instance_nearest(obj_Player.x, obj_Player.y, obj_Signpost);
 	instance_destroy(nearestSignPost);
 	//with (obj_camera) follow = obj_Player;
+}
 }

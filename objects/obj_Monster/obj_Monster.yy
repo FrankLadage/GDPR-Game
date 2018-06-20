@@ -177,6 +177,34 @@
             "value": "s_Monster_Blogger",
             "varName": "spriteMonster",
             "varType": 0
+        },
+        {
+            "id": "962fea9f-a438-4e5d-837b-3adb17827c43",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "canjump",
+            "varType": 1
+        },
+        {
+            "id": "30906b04-f7ac-4faa-8ff7-39e94eb02efa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "mayjump",
+            "varType": 3
         }
     ],
     "solid": false,

@@ -59,6 +59,20 @@
             "value": "1",
             "varName": "casenumber",
             "varType": 1
+        },
+        {
+            "id": "ce7c542b-57ac-44c9-adb6-9fcdc926b375",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "anwsered",
+            "varType": 3
         }
     ],
     "solid": false,

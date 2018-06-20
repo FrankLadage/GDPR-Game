@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 // Get nearest instance
+if(instance_exists(obj_Player)){
 var nearest = instance_nearest(obj_Player.x, obj_Player.y, obj_StandingObject);
 
 if(keyboard_check(vk_enter)) {
@@ -45,3 +46,4 @@ if(keyboard_check(vk_enter)) {
 }
 	
 if(nearest.purchase_delay > 0) nearest.purchase_delay--;
+}
