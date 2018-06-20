@@ -8,8 +8,16 @@ if(h == 0) h = string_height(text);
 w = string_width(text_current);
 
 //Destroy when done
-if (letters >= length) && (keyboard_check_pressed(vk_anykey)) && (room != room1)
+if (letters >= length) && ((keyboard_check_pressed(vk_f1)) or (keyboard_check_pressed(vk_f2))) && (room != room1)
 {
-	instance_destroy();
+	if(keyboard_check_pressed(whichkeyanswer))
+	{
+		instance_destroy();
+		global.playerscore = global.playerscore + 10;
+		audio_play_sound(sn_Good,10,false);
+	}else{
+		instance_destroy();
+		audio_play_sound(sn_Bad,10,false);
+	}
 	//with (obj_camera) follow = obj_Player;
 }

@@ -6,3 +6,5 @@ text_current = "";
 w = 0;
 h = 0;
 border = 10;
+boxWidth = sprite_get_width(obj_camera)
+stringHeight = string_height(text);

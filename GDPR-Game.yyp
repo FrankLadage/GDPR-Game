@@ -231,22 +231,6 @@
             }
         },
         {
-            "Key": "7103b32e-4a0c-4ca5-973b-2f2fd5ec5d58",
-            "Value": {
-                "id": "cbf87e91-e4e9-4eda-b116-cbea9c6f3a44",
-                "resourcePath": "sprites\\quesionblock\\quesionblock.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "742c3f51-9e95-48d3-9ee1-ee58b394ed69",
-            "Value": {
-                "id": "51d3aefb-b8a3-40aa-aca0-4e9cb2d18c74",
-                "resourcePath": "objects\\obj_QuestionBlock\\obj_QuestionBlock.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7a03a4df-83e9-46a8-83a9-c97b95345b64",
             "Value": {
                 "id": "9b198ae3-d8dd-4aa9-b972-1c99ac420097",
