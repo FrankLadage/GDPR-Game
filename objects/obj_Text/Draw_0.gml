@@ -12,4 +12,4 @@ draw_set_alpha(1);
 
 //Draw text
 DrawSetText(c_white,fMenu,fa_center,fa_top);
-draw_text_ext_transformed(x, y-h-(border*5), text_current, stringHeight, boxWidth, 0.8, 0.8, 0);
+draw_text_ext_transformed(x, y-h-(border*5), text_current, stringHeight, boxWidth, 0.7, 0.7, 0);

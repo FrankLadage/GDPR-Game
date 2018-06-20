@@ -7,7 +7,7 @@ if (point_in_circle(obj_Player.x,obj_Player.y,x,y,64)) && (instance_exists(obj_P
 		switch(obj_Signpost.casenumber)
 		{
 			case 1:
-				text = "Een amerikaans bedrijf vraagt om uw geloof, mag dit? Druk f1 voor ja of f2 voor nee";
+				text = "Een amerikaans bedrijf vraagt om uw geloof  doordat u naar een gelovig land gaat mag dit? Druk f1 voor ja of f2 voor nee";
 				whichkeyanswer = vk_f2;
 				obj_Signpost.casenumber++;
 				break;
