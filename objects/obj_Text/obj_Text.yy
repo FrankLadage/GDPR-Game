@@ -76,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.25",
+            "value": "0.4",
             "varName": "spd",
             "varType": 0
         }

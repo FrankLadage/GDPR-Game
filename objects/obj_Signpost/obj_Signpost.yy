@@ -5,13 +5,13 @@
     "name": "obj_Signpost",
     "eventList": [
         {
-            "id": "9aebf476-ed48-4c23-836d-e84e25145593",
+            "id": "adfc3bda-450d-4367-ac8e-a04c32a0e090",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 13,
-            "eventtype": 5,
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "ed6faec1-0078-447d-b961-2424dc2c79a5"
         }
     ],

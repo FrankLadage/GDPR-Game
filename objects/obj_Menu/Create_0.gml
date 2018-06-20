@@ -14,9 +14,9 @@ menu_itemheight = font_get_size(fMenu);
 menu_committed = -1;
 menu_control = true;
 
-menu[2] = "New Game";
-menu[1] = "Continue";
-menu[0] = "Quit";
+menu[2] = "Nieuw spel";
+menu[1] = "Verder spelen";
+menu[0] = "Stoppen";
 
 menu_items = array_length_1d(menu);
 menu_cursor = 2;

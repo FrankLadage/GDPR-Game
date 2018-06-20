@@ -1,1 +1,1 @@
-text = "Speed \n20 Points";
+text = "Snelheid \n20 Points";

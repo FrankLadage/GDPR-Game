@@ -1,1 +1,1 @@
-text = "HP \n10 Points";
+text = "Leven \n10 Points";

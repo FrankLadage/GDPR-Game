@@ -19,5 +19,8 @@ if (letters >= length) && ((keyboard_check_pressed(vk_f1)) or (keyboard_check_pr
 		instance_destroy();
 		audio_play_sound(sn_Bad,10,false);
 	}
+	
+	var nearestSignPost = instance_nearest(obj_Player.x, obj_Player.y, obj_Signpost);
+	instance_destroy(nearestSignPost);
 	//with (obj_camera) follow = obj_Player;
 }
