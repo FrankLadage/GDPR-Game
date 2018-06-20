@@ -5,6 +5,12 @@
 vsp = vsp + grv;
 
 
+if (canjump == 1)
+{
+	vsp = -8 - global.jumpeffect;
+	canjump = 2;
+}
+
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_collision))
@@ -35,6 +41,10 @@ if (place_meeting(x,y+vsp,obj_collision))
 		y = y + sign(vsp);
 	}
 	vsp = 0;
+	
+	if(mayjump == true) {
+		canjump = 1;
+	}
 }
 
 y = y + vsp;
