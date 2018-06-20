@@ -5,7 +5,7 @@ var nearestSignPost = instance_nearest(obj_Player.x, obj_Player.y, obj_Signpost)
 if(place_meeting(nearestSignPost.x, nearestSignPost.y, obj_Player)) {
 	if (point_in_circle(obj_Player.x,obj_Player.y,x,y,64)) && (instance_exists(obj_Player)) && (!instance_exists(obj_Text))
 	{
-		obj_Player.hascontrol = false;
+		
 		with (instance_create_layer(x, y-64, layer, obj_Text))
 		{
 			switch(obj_Signpost.casenumber)
@@ -48,7 +48,7 @@ if(place_meeting(nearestSignPost.x, nearestSignPost.y, obj_Player)) {
 		
 			}
 		
-			obj_Player.hascontrol = true;
+			
 			length = string_length(text);
 		}
 	}
