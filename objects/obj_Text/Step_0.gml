@@ -23,18 +23,24 @@ if (letters >= length) && ((keyboard_check_pressed(vk_f1)) or (keyboard_check_pr
 			switch(num){
 				case 1:
 					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
-				case 1:
+					break;
+				case 2:
 					feedback_txt += "Indien de informatie nodig is om te bepalen of bepaalde taken uitgevoerd kunnen worden (bijv. zwaar werk) mag deze worden opgevraagd.";
-				case 1:
-					feedback_txt += "Personen zijn goed beschermd en niet al uw persoonlijke gegevens mogen worden gebruikt";
-				case 1:
-					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
-				case 1:
-					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
-				case 1:
-					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
-				case 1:
-					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
+					break;
+				case 3:
+					feedback_txt += "Personen zijn goed beschermd en niet al uw persoonlijke gegevens mogen worden gebruikt.";
+					break;
+				case 4:
+					feedback_txt += "Toestemming blijft geldig totdat u deze intrekt.\n\nHet bedrijf is verplicht u de mogelijkheid te bieden de toestemming in te trekken.";
+					break;
+				case 5:
+					feedback_txt += "Uw toestemming voor het gebruiken van uw data moet zonder onnodige vertraging kunnen worden ingetrokken indien het bedrijf het niet meer nodig heeft voor wettelijke doeleinden";
+					break;
+				case 6:
+					feedback_txt += "Om persoonlijke data aan een derde partij te sturen heeft een bedrijf expliciete toestemming nodig van de persoon waar de data over gaat.";
+					break;
+				case 7:
+					feedback_txt += "Het verspreiden van persoonlijke informatie op publieke pagina's zoals social media is niet toegestaan.";
 			}
 		}
 	}else{
@@ -43,10 +49,28 @@ if (letters >= length) && ((keyboard_check_pressed(vk_f1)) or (keyboard_check_pr
 		//show feedback
 		var num = sign_case_num;
 		with (instance_create_layer(x, y, layer, obj_FeedbackText)){
-			feedback_txt = "Fout!\n\n"
+			feedback_txt = "Fout!\n\n";
 			switch(num){
 				case 1:
 					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
+					break;
+				case 2:
+					feedback_txt += "Indien de informatie nodig is om te bepalen of bepaalde taken uitgevoerd kunnen worden (bijv. zwaar werk) mag deze worden opgevraagd.";
+					break;
+				case 3:
+					feedback_txt += "Personen zijn goed beschermd en niet al uw persoonlijke gegevens mogen worden gebruikt.";
+					break;
+				case 4:
+					feedback_txt += "Toestemming blijft geldig totdat u deze intrekt.\n\nHet bedrijf is verplicht u de mogelijkheid te bieden de toestemming in te trekken.";
+					break;
+				case 5:
+					feedback_txt += "Uw toestemming voor het gebruiken van uw data moet zonder onnodige vertraging kunnen worden ingetrokken indien het bedrijf het niet meer nodig heeft voor wettelijke doeleinden";
+					break;
+				case 6:
+					feedback_txt += "Om persoonlijke data aan een derde partij te sturen heeft een bedrijf expliciete toestemming nodig van de persoon waar de data over gaat.";
+					break;
+				case 7:
+					feedback_txt += "Het verspreiden van persoonlijke informatie op publieke pagina's zoals social media is niet toegestaan.";
 			}
 		}
 	}
