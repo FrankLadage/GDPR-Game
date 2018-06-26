@@ -1,6 +1,6 @@
 /// @description Draw box
 
-var halfw = w * 0.25;
+var halfw = w * 0.35;
 
 //Draw the box
 
