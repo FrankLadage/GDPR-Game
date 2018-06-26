@@ -8,9 +8,9 @@ if(place_meeting(nearestSignPost.x, nearestSignPost.y, obj_Player)) {
 		
 		with (instance_create_layer(x, y-64, layer, obj_Text))
 		{
-			var num = irandom_range(1, 7);
-			show_debug_message(num);
-			switch(num)
+			//var num = irandom_range(1, 7);
+			sign_case_num = nearestSignPost.casenumber;
+			switch(nearestSignPost.casenumber)
 			{
 				case 1:
 					text = "Een Amerikaans bedrijf vraagt om uw geloof omdat u naar een gelovig land gaat, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
