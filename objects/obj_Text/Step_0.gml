@@ -22,7 +22,19 @@ if (letters >= length) && ((keyboard_check_pressed(vk_f1)) or (keyboard_check_pr
 			feedback_txt = "Goed!\n\n"
 			switch(num){
 				case 1:
-					feedback_txt += "\n\nAVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
+					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
+				case 1:
+					feedback_txt += "Indien de informatie nodig is om te bepalen of bepaalde taken uitgevoerd kunnen worden (bijv. zwaar werk) mag deze worden opgevraagd.";
+				case 1:
+					feedback_txt += "Personen zijn goed beschermd en niet al uw persoonlijke gegevens mogen worden gebruikt";
+				case 1:
+					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
+				case 1:
+					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
+				case 1:
+					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
+				case 1:
+					feedback_txt += "AVG geldt voor alle mensen wonend in de EU ongeacht waar ze zijn of waar de bedrijven die hun gegevens hebben zijn.";
 			}
 		}
 	}else{

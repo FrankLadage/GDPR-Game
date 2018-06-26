@@ -29,22 +29,22 @@ if(place_meeting(nearestSignPost.x, nearestSignPost.y, obj_Player)) {
 					//obj_Signpost.casenumber++;
 					break;
 				case 4:
-				   	text = "U heeft uw jaren geleden ingeschreven voor een nieuwsbrief en het bedrijf blijft u welke week een bericht sturen, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "U heeft u jaren geleden ingeschreven voor een nieuwsbrief en het bedrijf blijft u elke week een bericht sturen, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f1;
 					//obj_Signpost.casenumber++;
 					break;
 				case 5:
-				   	text = "U verwijderd uw facebook profiel maar er staat “Uw account wordt pas echt verwijderd als uw gedurende 3 weken niet meer ingelogd”, is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "U verwijdert uw facebookprofiel maar krijgt de melding “Uw account wordt pas echt verwijderd als u gedurende 3 weken niet meer inlogt”: is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f2;
 					//obj_Signpost.casenumber++;
 					break;
 				case 6:
-				   	text = "De ouders van Tanja zijn bezorgd en mailen naar school of ze haar cijfers en tentamens per mail mogen ontvangen is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "De ouders van Tanja zijn bezorgd en mailen naar school of ze haar cijfers en tentamens per mail mogen ontvangen: is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f2;
 					//obj_Signpost.casenumber++;
 					break;
 				case 7:
-				   	text = "Tanja maakt een foto van haar vriendengroep en zet het op Facebook en tagged iedereen die herkenbaar in beeld staat, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "Tanja maakt een foto van haar vriendengroep en zet deze op Facebook en tagt iedereen die herkenbaar in beeld staat: mag dit?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f2;
 					//obj_Signpost.casenumber++;
 					break;
