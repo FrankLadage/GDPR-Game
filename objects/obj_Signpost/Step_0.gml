@@ -8,9 +8,9 @@ if(place_meeting(nearestSignPost.x, nearestSignPost.y, obj_Player)) {
 		
 		with (instance_create_layer(x, y-64, layer, obj_Text))
 		{
-			var num = irandom_range(1, 7);
-			show_debug_message(num);
-			switch(num)
+			//var num = irandom_range(1, 7);
+			sign_case_num = nearestSignPost.casenumber;
+			switch(nearestSignPost.casenumber)
 			{
 				case 1:
 					text = "Een Amerikaans bedrijf vraagt om uw geloof omdat u naar een gelovig land gaat, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
@@ -29,22 +29,22 @@ if(place_meeting(nearestSignPost.x, nearestSignPost.y, obj_Player)) {
 					//obj_Signpost.casenumber++;
 					break;
 				case 4:
-				   	text = "U heeft uw jaren geleden ingeschreven voor een nieuwsbrief en het bedrijf blijft u welke week een bericht sturen, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "U heeft u jaren geleden ingeschreven voor een nieuwsbrief en het bedrijf blijft u elke week een bericht sturen, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f1;
 					//obj_Signpost.casenumber++;
 					break;
 				case 5:
-				   	text = "U verwijderd uw facebook profiel maar er staat “Uw account wordt pas echt verwijderd als uw gedurende 3 weken niet meer ingelogd”, is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "U verwijdert uw facebookprofiel maar krijgt de melding “Uw account wordt pas echt verwijderd als u gedurende 3 weken niet meer inlogt”: is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f2;
 					//obj_Signpost.casenumber++;
 					break;
 				case 6:
-				   	text = "De ouders van Tanja zijn bezorgd en mailen naar school of ze haar cijfers en tentamens per mail mogen ontvangen is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "De ouders van Tanja zijn bezorgd en mailen naar school of ze haar cijfers en tentamens per mail mogen ontvangen: is dit toegestaan?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f2;
 					//obj_Signpost.casenumber++;
 					break;
 				case 7:
-				   	text = "Tanja maakt een foto van haar vriendengroep en zet het op Facebook en tagged iedereen die herkenbaar in beeld staat, mag dit?\n\nDruk F1 voor ja of F2 voor nee";
+				   	text = "Tanja maakt een foto van haar vriendengroep en zet deze op Facebook en tagt iedereen die herkenbaar in beeld staat: mag dit?\n\nDruk F1 voor ja of F2 voor nee";
 					whichkeyanswer = vk_f2;
 					//obj_Signpost.casenumber++;
 					break;
