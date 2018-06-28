@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var halfw = w * 0.25;
+var halfw = w * 0.35;
 
 //Draw the box
 
