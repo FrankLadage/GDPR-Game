@@ -1,0 +1,1 @@
+text="Druk op Enter om te selecteren";
