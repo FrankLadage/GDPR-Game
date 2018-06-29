@@ -1,1 +1,1 @@
-text = "Ammunitie \n5 Punten";
+text = "Ammunitie\n5 Punten";
